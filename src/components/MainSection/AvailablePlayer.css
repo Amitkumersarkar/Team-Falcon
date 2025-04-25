@@ -1,0 +1,10 @@
+.active {
+    background-color: rgb(247, 0, 255);
+    color: aliceblue;
+}
+
+.btn {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+}

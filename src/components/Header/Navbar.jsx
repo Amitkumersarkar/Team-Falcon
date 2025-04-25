@@ -6,7 +6,7 @@ const Navbar = ({ credit }) => {
             <div>
                 <img src="../../../public/assets/logo.png" alt="" />
             </div>
-            <div className='flex justify-around gap-5 text-xl font-bold '>
+            <div className='flex justify-around gap-5 text-xl font-bold text-black'>
                 <a className='hover:text-pink-700' href="">Home</a>
                 <a className='hover:text-pink-700' href="">About</a>
                 <a className='hover:text-pink-700' href="">Teams</a>

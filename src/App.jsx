@@ -12,35 +12,40 @@ function App() {
   const handleAddFreeCredit = () => {
     setCredit(credit + 10);
     console.log("Button clicked! Adding credit...");
-    toast('Thank You For Claiming Free Credit..!!', { position: "top-center" });
+    toast('Thank You For Claiming Free Credit..!!', {
+      position: "top-center", style: {
+        backgroundColor: "skyblue",
+        color: "black",
+      }
+    });
 
     // using conditional rendering
-    const [isActive, setIsActive] = useState({
-      available: true,
-      status: "active"
-    })
+    // const [isActive, setIsActive] = useState({
+    //   available: true,
+    //   status: "active"
+    // })
     // declaring event handler
-    const handleIsActiveState = (status) => {
-      // condition apply
-      if (status == "available") {
-        setIsActive({
-          available: true,
-          status: "available"
-        })
-      }
-      else {
-        setIsActive({
-          available: false,
-          status: "selected"
-        })
-      }
-    }
+    // const handleIsActive = (status) => {
+    // condition apply
+    //   if (status == "available") {
+    //     setIsActive({
+    //       available: true,
+    //       status: "available"
+    //     })
+    //   }
+    //   else {
+    //     setIsActive({
+    //       available: false,
+    //       status: "selected"
+    //     })
+    //   }
+    // }
   }
   return (
     <>
       <Navbar credit={credit}></Navbar>
       <Banner handleAddFreeCredit={handleAddFreeCredit}></Banner>
-      <AvailablePlayer></AvailablePlayer>
+      <AvailablePlayer ></AvailablePlayer>
       <div className='font-semibold text-xl'>
         <ToastContainer />
       </div>
