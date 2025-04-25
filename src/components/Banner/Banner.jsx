@@ -1,5 +1,5 @@
 import './Banner.css';
-const Banner = () => {
+const Banner = ({ handleAddFreeCredit }) => {
     return (
         <div className='w-11/12 mx-auto p-7 font-bold'>
 
@@ -9,7 +9,7 @@ const Banner = () => {
                     <h2>Assemble Your Ultimate Team Falcon Cricket Team</h2>
                 </div>
                 <p className='text-gray-300 text-3xl p-5'>Beyond Boundaries Beyond Limits</p>
-                <button  className='text-white font-bold brr mt-2'>Claim Free Credit</button>
+                <button className="font-bold mt-2 brr" onClick={handleAddFreeCredit}>Claim Free Credit</button>
             </div>
         </div>
     );
