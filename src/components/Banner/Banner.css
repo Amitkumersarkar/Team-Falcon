@@ -1,0 +1,21 @@
+.bgg {
+    border-radius: 18px;
+    padding: 50px;
+    background: url('../../../public/assets/bg-shadow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.905);
+}
+
+.h1 {
+    /* display: flex; */
+    justify-content: center;
+    justify-items: center;
+}
+.brr{
+border-radius: 10px;
+padding: 15px;
+background-color: rgb(205, 161, 50);
+cursor: pointer;
+}
