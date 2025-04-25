@@ -1,4 +1,3 @@
-
 import './App.css'
 import Available from './components/AvailableSection/Available'
 import Banner from './components/Banner/Banner'
@@ -8,10 +7,11 @@ import Selected from './components/SelectedSection/Selected'
 
 function App() {
 
+
   return (
     <>
-      <Navbar></Navbar>
-      <Banner></Banner>
+      <Navbar ></Navbar>
+      <Banner ></Banner>
       <div className='w-10/12 mx-auto flex justify-between'>
         <AvailablePlayer></AvailablePlayer>
         <div className='flex gap-6'>

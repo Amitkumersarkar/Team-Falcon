@@ -12,7 +12,7 @@ const Navbar = () => {
                 <a className='hover:text-pink-700' href="">Teams</a>
                 <a className='hover:text-pink-700' href="">Schedules</a>
                 <div className='flex gap-5'>
-                    <p>$0 M</p>
+                    <p >$0 M</p>
                     <img className='w-6 h-6' src="../../../public/assets/coins.png" alt="" />
                 </div>
             </div>
