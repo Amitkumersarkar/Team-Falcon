@@ -13,9 +13,10 @@
     justify-content: center;
     justify-items: center;
 }
-.brr{
-border-radius: 10px;
-padding: 15px;
-background-color: rgb(205, 161, 50);
-cursor: pointer;
+
+.brr {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(205, 161, 50);
+    cursor: pointer;
 }
