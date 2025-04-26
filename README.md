@@ -1,12 +1,26 @@
-# React + Vite
+Name of project : Team Falcon Cricket Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies used : HTML-5,CSS-3,TAILWINDCSS,React.js,javascript etc.
 
-Currently, two official plugins are available:
+3 key features of your project : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Team Selection System
+Users can build their own cricket team by selecting players.
 
-## Expanding the ESLint configuration
+Shows a selected player list with a limit (example: 4/6 players selected).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Option to add or remove players dynamically with real-time UI updates.
+
+2. Responsive Modern Design
+Fully responsive layout that works perfectly on mobile, tablet, and desktop.
+
+Built using Tailwind CSS for a clean, modern, and fast UI.
+
+Includes a beautiful footer section, newsletter subscription form, and a gradient CTA button to claim free credits.
+
+3. Newsletter Subscription Integration
+Easy-to-use email input form for users to subscribe to updates.
+
+Designed with gradient button effects and smooth hover animations.
+
+Can be integrated with backend services (like Form spree, EmailJS, or Firebase) to actually collect emails.
