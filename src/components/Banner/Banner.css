@@ -8,15 +8,15 @@
     background-color: rgba(0, 0, 0, 0.905);
 }
 
-.h1 {
+.hh {
     /* display: flex; */
     justify-content: center;
     justify-items: center;
 }
 
-.brr {
+/* .brr {
     border-radius: 10px;
     padding: 15px;
     background-color: rgb(205, 161, 50);
     cursor: pointer;
-}
+} */
