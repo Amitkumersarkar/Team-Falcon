@@ -18,7 +18,7 @@ const Navbar = ({ credit }) => {
 
                     {/* Credit section */}
                     <div className='flex items-center gap-2 mt-2 md:mt-0'>
-                        <p>${credit} M</p>
+                        <p>${credit.toLocaleString()} M</p>
                         <img className='w-6 h-6' src="/assets/coins.png" alt="Coins" />
                     </div>
                 </div>
@@ -26,5 +26,4 @@ const Navbar = ({ credit }) => {
         </div>
     );
 };
-
 export default Navbar;

@@ -1,10 +1,11 @@
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Header/Navbar'
 import AvailablePlayer from './components/MainSection/AvailablePlayer'
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './components/FooterSection/Footer';
 
 function App() {
   const [credit, setCredit] = useState(0);
@@ -15,12 +16,12 @@ function App() {
 
   // state to store players
 
-  const [players, setPlayers] = useState([]); 
+  const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    fetch('/players.json') 
+    fetch('/players.json')
       .then(res => res.json())
-      .then(data => setPlayers(data)) 
+      .then(data => setPlayers(data))
       .catch(error => console.error('Error fetching players:', error));
   }, []);
 
@@ -49,9 +50,13 @@ function App() {
     <>
       <Navbar credit={credit}></Navbar>
       <Banner handleAddFreeCredit={handleAddFreeCredit}></Banner>
-      <AvailablePlayer  players={players} handleIsActiveState={handleIsActiveState} isActive={isActive} ></AvailablePlayer>
+      <AvailablePlayer players={players} handleIsActiveState={handleIsActiveState} isActive={isActive} ></AvailablePlayer>
       <div className='font-semibold text-xl'>
         <ToastContainer />
+      </div>
+      <div className='w-11/12 mx-auto p-10'>
+
+        <Footer></Footer>
       </div>
     </>
   )

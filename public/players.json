@@ -1,123 +1,122 @@
 [
-    {
-      "playerId": 1,
-      "name": "Virat Kohli",
-      "country": "India",
-      "image": "virat_kohli.jpg",
-      "role": "Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm medium",
-      "biddingPrice": "$2.4M"
-    },
-    {
-      "playerId": 2,
-      "name": "Babar Azam",
-      "country": "Pakistan",
-      "image": "babar_azam.jpg",
-      "role": "Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm off-break",
-      "biddingPrice": "$1.8M"
-    },
-    {
-      "playerId": 3,
-      "name": "Steve Smith",
-      "country": "Australia",
-      "image": "steve_smith.jpg",
-      "role": "Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm leg-spin",
-      "biddingPrice": "$2.1M"
-    },
-    {
-      "playerId": 4,
-      "name": "Ben Stokes",
-      "country": "England",
-      "image": "ben_stokes.jpg",
-      "role": "All-rounder",
-      "battingType": "Left-hand bat",
-      "bowlingType": "Right-arm fast-medium",
-      "biddingPrice": "$2.5M"
-    },
-    {
-      "playerId": 5,
-      "name": "Rashid Khan",
-      "country": "Afghanistan",
-      "image": "rashid_khan.jpg",
-      "role": "Bowler",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm leg-spin",
-      "biddingPrice": "$2.2M"
-    },
-    {
-      "playerId": 6,
-      "name": "Trent Boult",
-      "country": "New Zealand",
-      "image": "trent_boult.jpg",
-      "role": "Bowler",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Left-arm fast",
-      "biddingPrice": "$1.9M"
-    },
-    {
-      "playerId": 7,
-      "name": "Jos Buttler",
-      "country": "England",
-      "image": "jos_buttler.jpg",
-      "role": "Wicketkeeper-Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm medium",
-      "biddingPrice": "$2.3M"
-    },
-    {
-      "playerId": 8,
-      "name": "Jasprit Bumrah",
-      "country": "India",
-      "image": "jasprit_bumrah.jpg",
-      "role": "Bowler",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm fast",
-      "biddingPrice": "$2.6M"
-    },
-    {
-      "playerId": 9,
-      "name": "David Warner",
-      "country": "Australia",
-      "image": "david_warner.jpg",
-      "role": "Batsman",
-      "battingType": "Left-hand bat",
-      "bowlingType": "Right-arm leg-spin",
-      "biddingPrice": "$2.0M"
-    },
-    {
-      "playerId": 10,
-      "name": "Kane Williamson",
-      "country": "New Zealand",
-      "image": "kane_williamson.jpg",
-      "role": "Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm off-spin",
-      "biddingPrice": "$1.7M"
-    },
-    {
-      "playerId": 11,
-      "name": "Andre Russell",
-      "country": "West Indies",
-      "image": "andre_russell.jpg",
-      "role": "All-rounder",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm fast",
-      "biddingPrice": "$2.8M"
-    },
-    {
-      "playerId": 12,
-      "name": "Shaheen Afridi",
-      "country": "Pakistan",
-      "image": "shaheen_afridi.jpg",
-      "role": "Bowler",
-      "battingType": "Left-hand bat",
-      "bowlingType": "Left-arm fast",
-      "biddingPrice": "$2.4M"
-    }
-  ]
-  
+  {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "$2.4M"
+  },
+  {
+    "playerId": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlDzK790TemMJ9pFJ0g3lDwiqgbhhH_kxWdEqMCMF-nw_LhzmsBOco11c8cxOPyzufMBZ7TxW1CRguTfI8o9nDix_4NJyKa0R2M6wj2XU",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm off-break",
+    "biddingPrice": "$1.8M"
+  },
+  {
+    "playerId": 3,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/STEVE_SMITH_%2811705303043%29.jpg/500px-STEVE_SMITH_%2811705303043%29.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm leg-spin",
+    "biddingPrice": "$2.1M"
+  },
+  {
+    "playerId": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRfcV55y6Uxm0EN4YuP10vFMTWiENrvgU2yC4dK66LxGwBcKI4svoa-eoBCmpEk0eExpy9zDKC68slIgj4",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "biddingPrice": "$2.5M"
+  },
+  {
+    "playerId": 5,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_800,q_50/lsci/db/PICTURES/CMS/398900/398937.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm leg-spin",
+    "biddingPrice": "$2.2M"
+  },
+  {
+    "playerId": 6,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/66.png",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": "$1.9M"
+  },
+  {
+    "playerId": 7,
+    "name": "Jos Buttler",
+    "country": "England",
+    "image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/182.png",
+    "role": "Wicketkeeper-Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "$2.3M"
+  },
+  {
+    "playerId": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "$2.6M"
+  },
+  {
+    "playerId": 9,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLl97gs2_a0qr0fI0_Vouw4X6lrVX8sxas6CQXalE7rsb27o67ydh9mliqm3Ow44nwf0B7hKJHolt0orzpkoZuA",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm leg-spin",
+    "biddingPrice": "$2.0M"
+  },
+  {
+    "playerId": 10,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTznsBnjZe6mTqbp5Kqzba2sQw5Y3eZvoo3-gTJHnMV7ZeXaAi63p58JN1VptBy4Xd2Whvh06pWHIxxWgY3hMyNSHep_bhx-N8IE0Od2MU",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm off-spin",
+    "biddingPrice": "$1.7M"
+  },
+  {
+    "playerId": 11,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaDkFteI6QWzKiuCPZ2xCRPEEU7xNn24emjgIEpxBMNmAYJwUkwTiI-siS2lGosCTDOv2YJarPotaKR7KbQetOY3KKyGwUgAoSGfxNLlM",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "$2.8M"
+  },
+  {
+    "playerId": 12,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Shaheen_Afridi_%282%29.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": "$2.4M"
+  }
+]
