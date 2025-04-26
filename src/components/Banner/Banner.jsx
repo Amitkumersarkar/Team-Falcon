@@ -4,7 +4,7 @@ const Banner = ({ handleAddFreeCredit }) => {
         <div className='w-11/12 mx-auto p-7 font-bold'>
 
             <div className='bgg hh'>
-                <img className='items-center' src="../../../public/assets/banner-main.png" alt="" />
+                <img className='items-center' src="/public/assets/banner-main.png" alt="" />
 
                 <div className='pt-5 text-center'>
                     <h2 className='text-2xl sm:text-3xl md:text-5xl font-semibold text-white'>
